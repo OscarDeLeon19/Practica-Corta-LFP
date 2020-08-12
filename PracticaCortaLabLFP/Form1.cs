@@ -17,9 +17,14 @@ namespace PracticaCortaLabLFP
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+  
+
+        private void BotonObtener_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Mundo");
+            string Oracion = Texto1.Text;
+            Analizador analizador = new Analizador(Oracion);
+            analizador.ProcesoAnalisis();
+            
         }
     }
 }

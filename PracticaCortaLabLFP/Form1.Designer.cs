@@ -28,34 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Texto1 = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BotonObtener = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Texto1
             // 
-            this.button1.Location = new System.Drawing.Point(312, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 63);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Boton";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Texto1.Location = new System.Drawing.Point(211, 24);
+            this.Texto1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.Texto1.Name = "Texto1";
+            this.Texto1.Size = new System.Drawing.Size(1053, 29);
+            this.Texto1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Ingresa una oracion";
+            // 
+            // BotonObtener
+            // 
+            this.BotonObtener.Location = new System.Drawing.Point(353, 85);
+            this.BotonObtener.Name = "BotonObtener";
+            this.BotonObtener.Size = new System.Drawing.Size(535, 63);
+            this.BotonObtener.TabIndex = 2;
+            this.BotonObtener.Text = "Obtener Oracion";
+            this.BotonObtener.UseVisualStyleBackColor = true;
+            this.BotonObtener.Click += new System.EventHandler(this.BotonObtener_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1076, 620);
+            this.Controls.Add(this.BotonObtener);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Texto1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Analizador Lexico";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MaskedTextBox Texto1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BotonObtener;
     }
 }
 
