@@ -35,10 +35,10 @@
             // 
             // Texto1
             // 
-            this.Texto1.Location = new System.Drawing.Point(211, 24);
+            this.Texto1.Location = new System.Drawing.Point(211, 23);
             this.Texto1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Texto1.Name = "Texto1";
-            this.Texto1.Size = new System.Drawing.Size(1053, 29);
+            this.Texto1.Size = new System.Drawing.Size(579, 29);
             this.Texto1.TabIndex = 0;
             // 
             // label1
@@ -53,7 +53,7 @@
             // 
             // BotonObtener
             // 
-            this.BotonObtener.Location = new System.Drawing.Point(353, 85);
+            this.BotonObtener.Location = new System.Drawing.Point(125, 86);
             this.BotonObtener.Name = "BotonObtener";
             this.BotonObtener.Size = new System.Drawing.Size(535, 63);
             this.BotonObtener.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 620);
+            this.ClientSize = new System.Drawing.Size(815, 180);
             this.Controls.Add(this.BotonObtener);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Texto1);
