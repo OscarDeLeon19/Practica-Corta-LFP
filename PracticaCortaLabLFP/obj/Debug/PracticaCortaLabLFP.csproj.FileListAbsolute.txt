@@ -8,3 +8,4 @@ C:\Users\Oscar de León\Desktop\Git\PracticaCortaLabLFP\obj\Debug\PracticaCortaL
 C:\Users\Oscar de León\Desktop\Git\PracticaCortaLabLFP\obj\Debug\PracticaCortaLabLFP.csproj.CoreCompileInputs.cache
 C:\Users\Oscar de León\Desktop\Git\PracticaCortaLabLFP\obj\Debug\PracticaCortaLabLFP.exe
 C:\Users\Oscar de León\Desktop\Git\PracticaCortaLabLFP\obj\Debug\PracticaCortaLabLFP.pdb
+C:\Users\Oscar de León\Desktop\Git\PracticaCortaLabLFP\obj\Debug\PracticaCortaLabLFP.Ventana.resources
