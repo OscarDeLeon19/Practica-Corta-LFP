@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Text1 = new System.Windows.Forms.TextBox();
+            this.Componentes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Text1
+            // Componentes
             // 
-            this.Text1.Location = new System.Drawing.Point(64, 41);
-            this.Text1.Multiline = true;
-            this.Text1.Name = "Text1";
-            this.Text1.ReadOnly = true;
-            this.Text1.Size = new System.Drawing.Size(673, 122);
-            this.Text1.TabIndex = 0;
-            this.Text1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Componentes.Location = new System.Drawing.Point(64, 41);
+            this.Componentes.Multiline = true;
+            this.Componentes.Name = "Componentes";
+            this.Componentes.ReadOnly = true;
+            this.Componentes.Size = new System.Drawing.Size(673, 122);
+            this.Componentes.TabIndex = 0;
+            this.Componentes.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Ventana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 224);
-            this.Controls.Add(this.Text1);
+            this.Controls.Add(this.Componentes);
             this.Name = "Ventana";
             this.Text = "Ventana";
             this.ResumeLayout(false);
@@ -56,6 +56,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Text1;
+        private System.Windows.Forms.TextBox Componentes;
     }
 }

@@ -39,30 +39,30 @@ namespace PracticaCortaLabLFP
 
         }
 
-        public void Metodo()
+        public void AgregarDatos()
         {
-            String Cadena = "Identificadores: ";
+            String Cadena = "Palabras: ";
             for (int i = 0; i < NoIdentificador; i++)
             {
-                Cadena = Cadena + "{" + identificador[i] + "} ";
+                Cadena = Cadena + "(" + identificador[i] + ") ";
             }
 
-            Cadena = Cadena + "\r\n  Numeros Enteros: ";
+            Cadena = Cadena + "\r\nNumeros Enteros: ";
             for (int i = 0; i < NoNumeroEntero; i++)
             {
-                Cadena = Cadena + "{" + numero_entero[i] + "} ";               
+                Cadena = Cadena + "(" + numero_entero[i] + ") ";               
             }
-            Cadena = Cadena + "\r\n  Numeros Decimales: ";
+            Cadena = Cadena + "\r\nNumeros Decimales: ";
             for (int i = 0; i < NoNumeroDecimal; i++)
             {
-                Cadena = Cadena + "{" + numero_decimal[i] + "} ";
+                Cadena = Cadena + "(" + numero_decimal[i] + ") ";
             }
-            Cadena = Cadena + "\r\n Monedas: ";
+            Cadena = Cadena + "\r\nMonedas: ";
             for (int i = 0; i < NoMoneda; i++)
             {
-                Cadena = Cadena + "{" + moneda[i] + "} ";
+                Cadena = Cadena + "(" + moneda[i] + ") ";
             }
-            Text1.Text = Cadena;
+            Componentes.Text = Cadena;
         }
     }
 }

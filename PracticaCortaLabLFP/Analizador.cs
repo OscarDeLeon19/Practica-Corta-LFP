@@ -101,24 +101,8 @@ namespace PracticaCortaLabLFP
                 
             }
 
-            //for (int i = 0; i < NoIdentificador; i++)
-            //{
-            //    MessageBox.Show("Identificador: " + identificador[i]);
-            //}
-            //for (int i = 0; i < NoNumeroEntero; i++)
-            //{
-            //    MessageBox.Show("Entero: " + numero_entero[i]);
-            //}
-            //for (int i = 0; i < NoNumeroDecimal; i++)
-            //{
-            //    MessageBox.Show("Decimal: " + numero_decimal[i]);
-            //}
-            //for (int i = 0; i < NoMoneda; i++)
-            //{
-            //    MessageBox.Show("Moneda: " + moneda[i]);
-            //}
             Ventana ventana = new Ventana(identificador, numero_entero, numero_decimal, moneda, NoIdentificador, NoNumeroEntero, NoNumeroDecimal, NoMoneda );
-            ventana.Metodo();
+            ventana.AgregarDatos();
             ventana.Show();
         }
     }
